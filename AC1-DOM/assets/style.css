@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url(https://db.onlinewebfonts.com/c/82724711928097a9b800297e88bbfeb1?family=minecraft+enchantment+Regular);
 
 *{
     padding: 0;
@@ -12,7 +13,7 @@
 }
 
 body {
-    font-family: 'Poppins';
+    font-family: 'minecrafta enchantment Regular', "Roboto Mono", monospace;
     background-color: #101120;
     background-size: cover;
     min-height: 100vh;
@@ -49,18 +50,117 @@ body {
     top: 0;
     left: 0;
     z-index: 1; 
+    margin-top: 97px;
 }
 
 main {
-    background-color: #111;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 10vh;
+    height: auto;
+    width: 100%;
 }
 
 main div {
     width: 100%;
 }
 
+#card-box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 115px;
+}
 
+#card-box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 24px;
+}
+
+#card-box3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#nome-box {
+    position: relative;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+#nome {
+    color: #ffffff;
+    text-shadow:
+    0 0 10px #686868;
+}
+
+#card {
+    position: relative;
+    width: 600px;
+    height: 350px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    flex-direction: column;
+}
+
+#card1Content {
+    height: 100%;
+    display: flex;
+}
+
+#texto {
+    max-width: 85%;
+    word-wrap: break-word;
+    font-family: 'poppins'
+}
+
+#randDiv {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#randDiv2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#imagem1 {
+    width: 90%;
+    height: 90%;
+    background-image: url("Images/tadashi1.jfif");
+    transform: scaleX(-1);
+    background-size: cover;
+
+}
+
+#imagem2 {
+    width: 90%;
+    height: 90%;
+    background-image: url("Images/reimar1.jfif");
+    background-size: cover;
+    background-position: 8px;
+
+
+}
