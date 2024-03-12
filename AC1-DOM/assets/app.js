@@ -125,7 +125,7 @@ const main = () => {
   randDiv7.setAttribute("id", "randDiv")
   let card4Text1 = document.createElement('p')
   card4Text1.setAttribute("id", "texto")
-  card4Text1.innerText = "Sou desingner e programador especializado em front end, sou também desenhista e também tenho estudos sobre marketing digital."
+  card4Text1.innerText = "Sou designer e programador especializado em front end, sou também desenhista e também tenho estudos sobre marketing digital."
   let card4Text2 = document.createElement('div')
   card4Text2.setAttribute("id", "imagem4")
   let randDiv8 = document.createElement("div")
