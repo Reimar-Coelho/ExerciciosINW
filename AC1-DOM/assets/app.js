@@ -62,7 +62,7 @@ const main = () => {
   randDiv.setAttribute("id", "randDiv")
   let card1Text1 = document.createElement('p')
   card1Text1.setAttribute("id", "texto")
-  card1Text1.innerText = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  card1Text1.innerText = "Sou o Reimar Coelho Ferreira Filho, nascido em Araguari(MG) e atualmente moro na região sul de São Paulo. Sou estudante da Fiap School e faço estágio na Skillplace."
   let card1Text2 = document.createElement('div')
   card1Text2.setAttribute("id", "imagem2")
   let randDiv2 = document.createElement("div")
@@ -83,7 +83,7 @@ const main = () => {
   randDiv3.setAttribute("id", "randDiv")
   let card2Text1 = document.createElement('p')
   card2Text1.setAttribute("id", "texto")
-  card2Text1.innerText = "Sou Victor Tadashi Saito Barra nascido em São Paulo e atualmente moro na região sul da cidade atualmente estudo na Fiap School e faço estagio na Skillplace."
+  card2Text1.innerText = "Sou o Victor Tadashi Saito Barra, nascido em São Paulo e atualmente moro na região sul da cidade. Sou estudante da Fiap School e faço estágio na Skillplace."
   let card2Text2 = document.createElement('div')
   card2Text2.setAttribute("id", "imagem1")
   let randDiv4 = document.createElement("div")
@@ -97,6 +97,48 @@ const main = () => {
   randDiv4.appendChild(card2Text2)
   card2Content.appendChild(randDiv3)
   card2Content.appendChild(randDiv4)
+
+  let card3Content = document.createElement("div")
+  card3Content.setAttribute("id", "card1Content")
+  let randDiv5 = document.createElement("div")
+  randDiv5.setAttribute("id", "randDiv")
+  let card3Text1 = document.createElement('p')
+  card3Text1.setAttribute("id", "texto")
+  card3Text1.innerText = "Sou gamer, programador especializado em full stack, e também entusiasta e estudante de hardware e circuitos."
+  let card3Text2 = document.createElement('div')
+  card3Text2.setAttribute("id", "imagem3")
+  let randDiv6 = document.createElement("div")
+  randDiv6.setAttribute("id", "randDiv2")
+  let card3Title = document.createElement('h1')
+  card3Title.innerText = "Habilidades"
+  card3Title.style.marginTop = "20px"
+  card3.appendChild(card3Title)
+  card3.appendChild(card3Content)
+  randDiv5.appendChild(card3Text1)
+  randDiv6.appendChild(card3Text2)
+  card3Content.appendChild(randDiv5)
+  card3Content.appendChild(randDiv6)
+
+  let card4Content = document.createElement("div")
+  card4Content.setAttribute("id", "card1Content")
+  let randDiv7 = document.createElement("div")
+  randDiv7.setAttribute("id", "randDiv")
+  let card4Text1 = document.createElement('p')
+  card4Text1.setAttribute("id", "texto")
+  card4Text1.innerText = "Sou desingner e programador especializado em front end, sou também desenhista e também tenho estudos sobre marketing digital."
+  let card4Text2 = document.createElement('div')
+  card4Text2.setAttribute("id", "imagem4")
+  let randDiv8 = document.createElement("div")
+  randDiv8.setAttribute("id", "randDiv2")
+  let card4Title = document.createElement('h1')
+  card4Title.innerText = "Habilidades"
+  card4Title.style.marginTop = "20px"
+  card4.appendChild(card4Title)
+  card4.appendChild(card4Content)
+  randDiv7.appendChild(card4Text1)
+  randDiv8.appendChild(card4Text2)
+  card4Content.appendChild(randDiv7)
+  card4Content.appendChild(randDiv8)
 
   let divParticles = document.createElement("div");
   divParticles.setAttribute("id", "particles");

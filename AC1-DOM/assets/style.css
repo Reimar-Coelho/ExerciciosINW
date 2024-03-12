@@ -160,7 +160,24 @@ main div {
     height: 90%;
     background-image: url("Images/reimar1.jfif");
     background-size: cover;
-    background-position: 8px;
+    background-position: -35px;
+    
+}
 
+#imagem3 {
+    width: 90%;
+    height: 90%;
+    background-image: url("Images/reimar2.jfif");
+    background-size: cover;
+    background-position: center;
+    background-size: 100%
+    
+}
 
+#imagem4 {
+    width: 90%;
+    height: 90%;
+    background-image: url("Images/tadashi2.jfif");
+    background-size: cover;
+    background-position-y: -80px;
 }
