@@ -70,5 +70,12 @@
     "workbench.colorCustomizations": {
         "minimap.background": "#00000000",
         "scrollbar.shadow": "#00000000"
-    }
+    },
+    "cSpell.ignoreWords": [
+        "Trikas"
+    ],
+    "cSpell.words": [
+        "asiimov",
+        "Trikas"
+    ]
 }
